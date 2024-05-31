@@ -7,7 +7,7 @@ let text
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw `*مثال*: \n${usedPrefix + command} كيرت`
+    } else throw `*مثال*: \n${usedPrefix + command} كيرا`
    if (!text) return m.reply('نص ?')
    if (text.length > 30) return m.reply('*الحد الأقصى* 30')
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/d632230a4644067a1519b.jpg')
