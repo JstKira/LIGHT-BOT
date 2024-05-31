@@ -1,13 +1,13 @@
 {
-  "name": "whatsapp-bot (RAPHAEL-BOT)",
+  "name": "whatsapp-bot (𝐁𝐨𝐭—𝐊𝐢𝐫𝐚)",
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
-  "logo": "https://telegra.ph/file/3694d5edde3846459647b.jpg",
+  "logo": "https://telegra.ph/file/353b18870564b45977654.jpg",
   "repository": "https://github.com/DK3MK/RAPHAEL-BOT",
   "stack": "container",
   "env": {
      "DK3MK": {
-      "description": "I love you dark man",
+      "description": "ALOTAIBI is the best",
       "required": false,
       "value": "dk3mk"
     }
