@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let d = new Date(new Date() + 3600000)
   let locale = 'ar'
   let week = d.toLocaleDateString(locale, { weekday: 'long' })
-  let date = moment().tz('Asia/Muscat').locale('ar').format('DD MMMM YYYY')
+  let date = moment().tz('Asia/Jeddah').locale('ar').format('DD MMMM YYYY')
   //let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
   let _uptime = process.uptime() * 1000
   let uptime = clockString(_uptime)
@@ -48,7 +48,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 ❒┇اسم البوت: *${botname}*
 ❒┇اسم المالك: *${ownername}*
-❒┇نظام التشغيل: *لينكس*
 ❒┇وقت التشغيل: *${uptime}*
 
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
