@@ -2,9 +2,8 @@ const imglist = 'https://telegra.ph/file/d632230a4644067a1519b.jpg'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => conn.sendFile(m.chat, imglist, 'darkman.jpg', `
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆
 
-*❮ اهلا بك/ي في اوامـر بوت 'كيرا'🤖 ❯*
+*❮ اهلا بك/ي في اوامـر بوت '𝐊𝐢𝐫𝐚 '🤖 ❯*
  لَا تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا 
-لإستخدام البوت اكتب(.)
 اكتب (.) قبل اي امر لكي يستجيب البوت
 Devloper(𝐊𝐢𝐫𝐚)
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
