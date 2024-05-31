@@ -1,8 +1,8 @@
-const imglist = 'https://telegra.ph/file/8bd4816b5ed78b2da5bc5.jpg'
+const imglist = 'https://telegra.ph/file/d632230a4644067a1519b.jpg'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => conn.sendFile(m.chat, imglist, 'darkman.jpg', `
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆
 
-*❮ توضیح اوامر بوت'رافـاييـل'🤖 ❯*
+*❮ توضیح اوامر بوت'𝐊𝐈𝐑𝐀'🤖 ❯*
 
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
 *˼‏👑˹ قـسـم الـمـجـمـوعـات╿↶*
@@ -168,12 +168,12 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 ───── • ◈ • ─────
 ❦┇امر *.تسجيل* ، تسجیل اسم و العمر في البوت
 •
-*مثال :* .تسجيل دارك مان.18
+*مثال :* .تسجيل دارك .18
 ───── • ◈ • ─────
 ❦┇امر *.الدعم* یرسل البوت رابط جروب البوتات للتحدیثات
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
 
-*بــــــℝ𝔸ℙℍ𝔸𝔼𝕃ــــــوت*
+*𝐊𝐈𝐑𝐀--𝐁𝐎𝐓*
 
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆
 `.trim(), m)
