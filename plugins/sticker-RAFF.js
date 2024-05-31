@@ -7,10 +7,10 @@ let text
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw `*مثال*: \n${usedPrefix + command} دارك مان`
+    } else throw `*مثال*: \n${usedPrefix + command} كيرت`
    if (!text) return m.reply('نص ?')
    if (text.length > 30) return m.reply('*الحد الأقصى* 30')
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/3694d5edde3846459647b.jpg')
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/d632230a4644067a1519b.jpg')
 
    const obj = {
       "type": "quote",
