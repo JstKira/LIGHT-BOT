@@ -25,7 +25,8 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 ▢ *🔗الرابط:* http://wa.me/${who.split`@`[0]}${registered ? '\n▢ *🎈العمر*: ' + age + ' سنة' : ''}
 ▢ *⚠️تحذير:* ${warn}/${maxwarn}
 ▢ *🏆الدور:* ${role}
-▢ *📇 مسجل :* ${registered ? 'نعم': 'لا'}
+▢ *📇 مسجل :* ${registered ? 'نعم': 'غير مسجل'}
+
 └──────────────`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
     m.react(done)
