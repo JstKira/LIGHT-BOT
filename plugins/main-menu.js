@@ -33,9 +33,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let more = String.fromCharCode(8206)
   let readMore = more.repeat(850)
   let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-// الوقت بعُمان
-  const time = moment.tz('Asia/Muscat').format('HH A')
-  let wib = moment.tz('Asia/Muscat').format('hh:mm:ss A')
+// الوقت بالمملكة
+  const time = moment.tz('Asia/Jeddah').format('HH A')
+  let wib = moment.tz('Asia/Jeddah').format('hh:mm:ss A')
   
   let str = `
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆
@@ -62,16 +62,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 *❲  التقویم ❳ ⬳ ⌝📅⌞*
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
 
-*❍┇بتوقيت سلطنة عُـمــان-🇴🇲-*
+*❍┇بتوقيت السعودية-🇸🇦-*
 ❒┇الوقت: *${wib}*
 ❒┇التاریخ: *${date}*
 
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
 *❲ لعرض الاوامر اکتب/ي ❳*
-*⬳ ⌝ /المهام ⌞*
+*⬳ ⌝ /اوامر ⌞*
 *• ∙ ∙━━╍━﹝🌀﹞━╍━━∙ ∙ •*
 
-*بــــــℝ𝔸ℙℍ𝔸𝔼𝕃ــــــوت*
+*𝐁𝐨𝐭—𝐊𝐢𝐫𝐚*
 
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆`
 
@@ -81,7 +81,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['الأوامر', 'الاوامر', 'اوامر', 'أوامر','menu']
+handler.command = ['انفو', 'معلومات', 'البوت']
 
 export default handler
 
@@ -93,7 +93,7 @@ function clockString(ms) {
 }
 
 function ucapan() {
-  const time = moment.tz('Asia/Muscat').format('HH A')
+  const time = moment.tz('Asia/Jeddah').format('HH A')
   let res = "صباح الخير ☀️"
   if (time >= 4) {
     res = "صباح الخير 🌄"
