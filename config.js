@@ -20,10 +20,10 @@ global.APIKeys = { // Apikey : 42x5rO7o \\
 
 // Sticker WM
 global.ownername = 'dark man'
-global.botname = 'رافـاييـل بــوت'
+global.botname = 'كيرا بوت'
 global.premium = 'false'
 global.packname = 'رافـاييـل بــوت'
-global.author = 'Dev >> dark man'
+global.author = 'Dev >> 𝐊𝐢𝐫𝐚'
 
 
 global.wait = '*[■■■■■■■■■□] 90%*'
